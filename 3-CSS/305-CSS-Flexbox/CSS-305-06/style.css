@@ -1,1 +1,132 @@
-/* start your styling here  */
+*{
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+.ml-1{
+    margin-left: 1rem;
+    }
+    .mr-1{
+        margin-right: 1rem;
+    }
+    .mb-1{
+       margin-bottom: 1rem; 
+    }
+    .mt-1{
+        margin-top: 1rem;
+    }
+    .nav-bt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.logo{
+    height: 3rem;
+    width: 5rem;
+    margin-right: 300px;
+}
+.title{
+cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    background-color: #ffffff;
+    padding: 0.5rem;
+}
+
+.vl{
+    border-left: 1px solid black;
+    height: 20px;
+}
+
+.nav-button {
+    background-color: #ffffff;
+    border: 1px solid #1128fc;
+    border-radius: 5px;
+    padding: 0.25rem 1rem 0.25rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-display: normal;
+    font-weight: 5;
+    transition: all 0.25s;
+    color: #1128fc;
+}
+.ml-3{
+    margin-left: 300px;
+}
+
+.nav-button:hover {
+    background-color: #1128fc;
+    color: #ffffff;
+}
+
+/*section css*/
+
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.headline{
+    font-size: xxx-large;
+    font-weight: 7;
+    color: rgb(128, 90, 90);
+}
+.first-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:1rem
+
+}
+.email{
+    width: 300px;
+    height: 40px;
+}
+.password{
+    width: 300px;
+    height: 40px;
+}
+.btn{
+    background-color: #1128fc;
+    color: #ffffff;
+    height: 3rem;
+    width: 300px;
+    border-radius: 25px;
+}
+.ml-4{
+    margin-left: 4rem;
+}
+
+
+.img{
+  height: 500px; 
+  width: 700px; 
+  border: 1px solid #ffffff;
+}
+
+@media screen and (max-width:800px) {
+    
+    nav,.logo,.blog,.first-part,.second-part{
+        max-width:auto;
+        margin: auto;
+    }
+}
