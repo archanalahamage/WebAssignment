@@ -1,1 +1,60 @@
 /* start your styling here  */
+.header{
+    width: 1000px;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    gap: 4px;
+    
+
+}
+.a{
+    border: 1px solid ;
+    width: 400px;
+    height: 20px;
+    border-radius: 1px;
+    margin: 10px;
+    text-align: left;
+    background-color: aliceblue;
+    color: rgb(170, 142, 142);
+
+}
+.b{
+    border: 1px solid ;
+    width: 150px;
+    height: 20px;
+    border-radius: 1px;
+    margin: 10px;
+    background-color: aliceblue;
+    color: rgb(104, 104, 190);
+
+}
+.c{
+    margin: 10px;
+    color: aliceblue;
+}
+
+.d{
+    margin: 10px;
+    color: aliceblue;
+}
+.e{
+    margin: 10px;
+    color: aliceblue;
+}
+.f{
+    font-size: small;
+    color: aliceblue;
+    margin: 3px;
+}
+.product{
+    display: flex;
+}
+img{
+    width: 150px;
+    margin: 20px;
+}
+.A{
+    text-align: center;
+}
